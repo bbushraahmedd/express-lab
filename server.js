@@ -21,9 +21,6 @@
   });
  
 // rendering
-  app.get('/home', function(req, res) {
-    res.render('home');
-});
 
 app.get('/kittens', function(req, res) {
     res.render('kittens/index.ejs', {
